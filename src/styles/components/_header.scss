@@ -1,0 +1,21 @@
+.header {
+  background: $off-black;
+  margin-bottom: $b-size;
+  padding: $m-size 0;
+  color: white;
+}
+.header__title {
+  font-size: $l-size;
+  margin: 0;
+}
+.header__subtitle {
+  margin: 0;
+  font-size: $m-size;
+  font-weight: 500;
+  color: $off-white;
+}
+@media (max-width: 600px) {
+  .header {
+    margin-bottom: $s-size;
+  }
+}

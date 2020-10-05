@@ -1,0 +1,28 @@
+.add-option-error {
+  color: red;
+  font-style: italic;
+  padding: 0 $m-size 0 0 0;
+  margin: $m-size;
+}
+.form-option {
+  display: flex;
+  padding: $m-size;
+}
+.form-option__input {
+  flex-grow: 1;
+  background: $dark-blue;
+  border: none;
+  border-bottom: 0.3rem solid darken($dark-blue, 10%);
+  margin-right: $s-size;
+  color: $off-white;
+  padding: $s-size;
+}
+@media (max-width: 600px) {
+  .form-option {
+    flex-direction: column;
+    margin: 0 0 $s-size 0;
+  }
+  .form-option__input {
+    margin: 0 0 $s-size 0;
+  }
+}
